@@ -1,3 +1,5 @@
+# Edited for Google Colab Notebook
+
 ### ------ Update September 2018 ------
 It's now been a year since DeepMoji was released and we're trying to understand how it's being used such that we can make improvements and provide you with better models in the future. 
 
