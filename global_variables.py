@@ -16,8 +16,8 @@ SPECIAL_TOKENS = ['CUSTOM_MASK',
 SPECIAL_TOKENS.extend(['{}BLANK_{}'.format(SPECIAL_PREFIX, i) for i in range(6, 10)])
 
 ROOT_PATH = dirname(dirname(abspath(__file__)))
-VOCAB_PATH = '{}/model/vocabulary.json'.format(ROOT_PATH)
-PRETRAINED_PATH = '{}/model/deepmoji_weights.hdf5'.format(ROOT_PATH)
+VOCAB_PATH = '{}/DeepMoji/model/vocabulary.json'.format(ROOT_PATH)
+PRETRAINED_PATH = '{}/DeepMoji/model/deepmoji_weights.hdf5'.format(ROOT_PATH)
 
 WEIGHTS_DIR = tempfile.mkdtemp()
 
