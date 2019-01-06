@@ -1,5 +1,9 @@
 # Datasets
 
+#Update:
+Added fake news dataset from https://github.com/GeorgeMcIntire/fake_real_news_dataset
+Modified to cleanup non unicode entries.
+
 Below are the label descriptions for each dataset in the same order as the label categories in the datasets. For instance, if an observation in SCv1 has label 1, then that observation is in the sarcasm category. Note that the Olympic and SE0714 datasets can have multiple labels associated with each observation.
 
 * **Olympic:** negative & high control, positive & high control, negative & low control, positive & high control
